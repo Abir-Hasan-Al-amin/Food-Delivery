@@ -1,22 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 body {
     max-width: 100vw;
     background-color: #fff;
     font-family: "Jost", sans-serif;
 }
-nav{
+
+nav {
     max-width: 90%;
     display: flex;
     justify-content: space-between;
     margin: 14px auto;
     align-items: center;
 }
-nav button{
+.cLogo img{
+    width: 170px;
+}
+nav button {
     background-color: #fff;
     border: none;
     outline: none;
@@ -24,7 +28,8 @@ nav button{
     font-weight: 600;
     font-size: 18px;
 }
-.hero{
+
+.hero {
     height: 60vh;
     background-image: url('./Assets//Header_Bg.png');
     background-size: 100% 100%;
@@ -36,90 +41,107 @@ nav button{
     flex-direction: column;
     gap: 40px;
 }
-.hero input{
+
+.hero input {
     max-width: 500px;
     height: 35px;
     border: none;
     outline: none;
     font-size: 18px;
 }
-.AppInfo{
+
+.AppInfo {
     max-width: 60%;
     display: flex;
     margin: 40px auto;
 }
-.appInfoImg,.appInfoContent{
-    flex-basis: 1;
-    max-width: 50%;
+
+.appInfoImg, .appInfoContent {
+    flex-basis: 50%;
     padding: 40px;
 }
-.appInfoImg img{
+
+.appInfoImg img {
     height: 100%;
     width: 100%;
 }
-.appInfoContent{
+
+.appInfoContent {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.areas{
-    max-width: 90%;
+
+.areas {
+    max-width: 80%;
     margin: 40px auto;
 }
+
 .area {
     display: flex;
 }
 
 .a1 {
     flex: 1 1 33%;
-    margin-right: 20px; 
+    margin-right: 20px;
 }
 
 .a2 {
     flex: 2 1 66%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .resInformation {
-    flex: 1 1 50%;
+    flex: 0 1 auto;
     margin-bottom: 20px;
     padding: 20px;
-    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.resInfoImg img{
-    height: 240px;
-    width: 400px;
+.resInfoImg img {
+    width: 100%;
+    height: auto;
 }
-.resInfo p{
+.resInfo p {
     font-size: 14px;
 }
-.resInfo h2{
+.resInfo h2 {
     font-size: 16px;
     font-weight: normal;
 }
-.DelTime{
-    display: flex;
+.resInfo{
+    padding-top: 10px;
 }
-.delivery,.time{
-    padding-right: 10px;
+.DelTime {
     display: flex;
-    gap:5px;
+    gap: 10px;
+}
+.delivery, .time {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-top: 5px;
+}
+.dTImg{
+    display: flex;
     justify-content: center;
+    align-items: center;
 }
-#ch .resInfoImg img{
+#ch .resInfoImg img {
     height: 600px;
 }
-.about{
+.about {
     max-width: 60%;
     margin: 40px auto;
 }
-.about h1{
+.about h1 {
     padding-bottom: 30px;
     text-align: center;
 }
-.aboutContent{
+.aboutContent {
     display: flex;
     justify-content: space-evenly;
 }
@@ -128,26 +150,26 @@ nav button{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap:10px;
+    gap: 10px;
     border-radius: 20px;
     padding: 5px;
     height: 360px;
     width: 288px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
-.cards p{
+.cards p {
     text-align: center;
 }
-.cardImg{
+.cardImg {
     width: 80px;
     height: 80px;
 }
-.cardImg img{
+.cardImg img {
     width: 100%;
     height: 100%;
 }
-.promo{
-    max-width: 90%;
+.promo {
+    max-width: 80%;
     height: 360px;
     margin: 40px auto;
     background-color: #ff6a90;
@@ -155,7 +177,7 @@ nav button{
     position: relative;
     overflow: hidden;
 }
-.promo img{
+.promo img {
     position: absolute;
 }
 .promoBg1 {
@@ -167,7 +189,7 @@ nav button{
     right: 0;
     border-radius: 40px;
 }
-.reviews{
+.reviews {
     max-width: 60%;
     margin: 40px auto;
     display: flex;
@@ -175,51 +197,62 @@ nav button{
     align-items: center;
     flex-direction: column;
 }
-.rSwap{
+
+.rSwap {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.companyL{
+
+.companyL {
     display: flex;
 }
-.reviews p{
+
+.reviews p {
     text-align: center;
 }
-.comp{
+
+.comp {
     width: 120px;
 }
-.comp img{
+
+.comp img {
     width: 100%;
 }
-footer{
+
+footer {
     position: relative;
 }
-.footMark{
+
+.footMark {
     position: absolute;
     bottom: 0;
     right: 0;
 }
-.footL{
- display: flex;
+
+.footL {
+    display: flex;
 }
-footer a{
+
+footer a {
     color: black;
 }
-.foot{
- display: flex;
- height: 240px;
- background-color: #f8f9fa;
+
+.foot {
+    display: flex;
+    height: 240px;
+    background-color: #f8f9fa;
 }
-.foot a{
+.foot a {
     font-weight: normal;
 }
-.RestRating,.faq,.footCom{
+.RestRating, .faq, .footCom {
     display: flex;
     flex-direction: column;
 }
-a{
+
+a {
     text-decoration: none;
-    color: #fff;
+    color: #000;
     font-weight: bold;
 }
