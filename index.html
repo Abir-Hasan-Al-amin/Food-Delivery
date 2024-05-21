@@ -16,8 +16,12 @@
             <div>
                 <h1>Your favorite food, delivered to you</h1>
             </div>
-            <div>
-                <button>NewWork</button>
+            <div class="searchBar">
+                <div class="locationInfo">
+                    <img src="/Assets//Location-1.png" alt="">
+                    <p>New York</p>
+                    <div class="line"></div>
+                </div>
                 <input type="text">
                 <button>Search</button>
             </div>
@@ -35,7 +39,13 @@
         </div>
     </section>
     <section class="areas">
-        <h1>Popular on New York area</h1>
+        <div class="aInfo">
+            <h1>Popular on New York area</h1>
+            <div class="areaExplore">
+                <p>View All</p>
+                <img src="/Assets/arrow-right.png" alt="">
+            </div>
+        </div>
         <div class="area">
             <div class="a1">
                 <div class="resInformation" id="ch">
@@ -184,23 +194,25 @@
         </div>
     </section>
     <section class="promo">
-        <img class="promoBg1" src="/Assets/BG_line.png">
-        <img class="promoBg2" src="/Assets/Order_Bg.png">
         <h1>Food Delivery helps you bring food to your front door</h1>
-        <div>
+        <div class="promoB">
             <button>Download our App</button>
             <a href="#">Browse food</a>
         </div>
+        <img class="promoBg1" src="/Assets/BG_line.png">
+        <img class="promoBg2" src="/Assets/Order_Bg.png">
     </section>
     <section class="reviews">
         <h1>What our food lovers said</h1>
         <p>In the artist's own experience, of course, art is fundamentally indefinable, unsayable; there is something sacred about its demands upon the soul, something inherently mysterious in the forms it takes</p>
         <div class="rSwap">
-            <div>p</div>
-            <div>
-                <img src="/Assets/R_Bg.png">
+            <div><img src="/Assets/Chevron left.png" alt=""></div>
+            <div class="rSwapImg">
+                <div class="circle"></div>
+                <h2>In the artist's own experience, of course, art is fundamentally indefinable, unsayable</h2>
+                <p>Tim Oliver, ordered Burger Extracheese</p>
             </div>
-            <div>n</div>
+            <div><img src="/Assets/Chevron right.png" alt=""></div>
         </div>
         <div class="companyL">
             <div class="comp">
@@ -226,17 +238,22 @@
             <div class="cLogo">
                 <img src="./Assets/Company_Logo.png" alt="">
             </div>
-            <a href="#">Partners</a>
-            <a href="#">About Us</a>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Contact Us</a>
+            <div class="footLink">
+                <a href="#">Partners</a>
+                <a href="#">About Us</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Contact Us</a>
+            </div>
         </div>
         <div class="foot">
-            <div>
-                <p>123 Lorem Ipsum Street
-                <br>Tangerang, Banten</p>
-                <p>+10 - 234 - 5678</p>
+            <div class="footContent">
+            <div class="footAddress">
+                <p>123 Lorem Ipsum Street<br>
+                Tangerang, Banten<br><br>
+                +10 - 234 - 5678</p>
             </div>
+            <div class="footRight">
+            <div class="footRightCon">
             <div class="RestRating">
                 <a href="#">All Restaurant</a>
                 <a href="#">Best Sellers</a>
@@ -250,9 +267,12 @@
                 <a href="#">Terms & Condition</a>
             </div>
             <div class="footCom">
-                <a href="#">Our Parent Company</a>
-                <a href="#">Make an investment</a>
+                    <a href="#">Our Parent Company</a>
+                    <a href="#">Make an investment</a>
             </div>
+            </div>
+            </div>
+        </div>
         </div>
     </footer>
     <script src="script.js"></script>
