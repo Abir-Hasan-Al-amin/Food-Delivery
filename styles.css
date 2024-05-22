@@ -366,7 +366,7 @@ nav button {
     padding-block: 40px;
 }
 .rSwapImg{
-    background-image: url('/Assets/R_Bg.png');
+    background-image: url('Assets/R_Bg.png');
     width: 608px;
     height: 343px;
     background-size: cover;
