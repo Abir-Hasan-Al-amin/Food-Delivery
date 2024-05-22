@@ -1,0 +1,344 @@
+@media screen and (max-width: 1750px) {
+    .areas {
+      width: 80%;
+    }
+    h1 {
+      font-size: 40px;
+    }
+    p {
+      font-size: 14px;
+    }
+    .reviews p{
+      width: 400px;
+    }
+    .locationInfo {
+      gap: 10px;
+    }
+    .locationInfo img {
+      width: 20px;
+      height: 20px;
+    }
+    .searchBar button {
+      font-size: 16px;
+    }
+    .appInfoContent button, .promo button, .promo a {
+      font-size: 18px;
+    }
+    .resInfo h2 {
+      font-size: 20px;
+    }
+    .resInfo p {
+      font-size: 16px;
+    }
+    .resInfo {
+      padding-block: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 1550px) {
+    .area {
+      display: block;
+    }
+    .AppInfo {
+      width: 80%;
+    }
+    .searchBar {
+      width: 60%;
+    }
+    .about {
+      width: 80%;
+    }
+    .promo {
+      width: 80%;
+      padding: 50px 94px;
+    }
+    footer img {
+      width: 400px;
+    }
+    .a2 {
+      gap: 40px;
+    }
+    #ch .resInfoImg{
+      padding-top: 40px;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .AppInfo {
+      width: 100%;
+      margin: 0;
+    }
+    .about {
+      width: 100%;
+    }
+
+    .resInfo {
+      padding-block: 20px;
+    }
+    #ch .resInfo {
+      padding-bottom: 60px;
+    }
+    .promo {
+      width: 90%;
+      padding: 50px 94px;
+    }
+    footer img {
+      width: 380px;
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    .hero {
+      height: 40vh;
+    }
+    .hero h1{
+        font-size: 40px;
+      }
+      h1 {
+        font-size: 30px;
+        line-height: 44px
+      }
+      .appInfoContent button, .promo button, .promo a {
+        font-size: 12px;
+      }
+      .appInfoContent p{
+        width: 250px;
+    }
+    .searchBar {
+        width: 70%;
+        height: 40px;
+      }
+      .line {
+        height: 20px;
+      }
+      .aInfo h1{
+        font-size: 30px;
+      }
+      .aboutContent{
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+      .cards{
+        padding: 10px;
+      }
+      .areaExplore img{
+        width: 20px;
+        height: 20px;
+      }
+      .cardImg img{
+        width: 60px;
+        height: 60px;
+      }
+      .promo {
+        height: 260px;
+        padding: 40px 84px;
+      }
+      .footContent,.reviews {
+        width: 90%;
+      }
+      .foot {
+        height: 140px;
+    }
+    .footL {
+      width: 90%;
+  }
+      footer img {
+        width: 250px;
+      }
+      .companyL{
+        padding-bottom: 0px;
+      }
+  }
+  @media screen and (max-width: 768px) {
+    .AppInfo {
+      flex-wrap: wrap;
+    }
+    .rSwapImg{
+      width: 400px;
+      height: 300px;
+    }
+    .rSwapImg h2{
+      width: 300px;
+    }
+    .circle{
+      width: 50px;
+      height: 50px;
+    }
+    .rSwapImg h2{
+      font-size: 18px;
+    }
+    .rSwapImg p{
+      font-size: 16px;
+    }
+    .resInfo h2 {
+      font-size: 18px;
+    }
+    .resInfo p{
+      font-size: 14px;
+    }
+    .hero {
+      height: 40vh;
+    }
+    .searchBar button, nav button{
+      font-size: 12px;
+    }
+    p {
+      font-size: 12px;
+    }
+    .locationInfo img {
+      width: 15px;
+      height: 15px;
+    }
+    
+.searchBar input{
+  font-size: 12px;
+}
+    .locationInfo,.searchBar button {
+      flex-basis: 25%;
+    }
+    .hero h1{
+      font-size: 30px;
+    }
+    .searchBar {
+      width: 80%;
+    }
+    .cards{
+      width: 360px;
+    }
+    .aboutContent{
+      gap: 40px;
+    }
+    .areas {
+      width: 95%;
+    }
+    .searchBar input {
+      flex-basis: 50%;
+    }
+    .appInfoImg, .appInfoContent {
+      flex-basis: 100%;
+    }
+    .appC{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+    }
+    .promo{
+      width: 95%;
+      padding: 40px 64px;
+    }
+    .footL {
+      width: 100%;
+    }
+    .promoBg1 {
+      top: -410px;
+      left: -260px;
+      z-index: 1;
+  }
+  
+  .promoBg2{
+    width: 500px;
+  }
+  .promoBg1{
+    width: 700px;
+  }
+    .promo h1{
+      font-size: 20px;
+      width: 400px;
+    }
+    .promo a{
+      padding-left: 40px;
+    }
+    .cLogo img {
+      width: 130px;
+    }
+    .footLink a, .foot a {
+      font-size: 12px;;
+    }
+    .footRight{
+      justify-content: space-around;
+    }
+    .footContent{
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .hero h1 {
+      font-size: 22px;
+      line-height: 24px;
+    }
+    h1{
+      font-size: 24px;
+    }
+    .locationInfo, .searchBar button {
+      flex-basis: 30%;
+    }
+    .searchBar input {
+      flex-basis: 40%;
+    }
+    .searchBar {
+      width: 90%;
+    }
+    .cards {
+      width: 340px;
+    }
+    .hero {
+      height: 30vh;
+    }
+    section {
+      padding-top: 20px;
+    }
+    .rSwapImg {
+      width: 300px;
+      height: 250px;
+    }
+    .rSwap{
+      width: 350px;
+      gap: 5px;
+    }
+    .reviews p {
+      width: 300px;
+      font-size: 12px;
+    }
+    .promo {
+      padding: 20px auto;
+    }
+    .promo h1 {
+      font-size: 18px;
+      width: 280px;
+      line-height: 34px;
+    }
+    .aInfo h1 {
+      font-size: 22px;
+    }
+    .promo button {
+      font-size: 12px;
+    }
+    .promo {
+      width: 95%;
+      padding: 40px 24px;
+    }
+    .promo a {
+      padding-left: 20px;
+    }
+    .cLogo img {
+      width: 100px;
+    }
+    .footLink a, .foot a {
+      font-size: 10px;
+    }
+    .areaExplore img {
+      width: 15px;
+      height: 15px;
+    }
+    .areaExplore{
+      gap: 5px;
+    }
+    .footAddress p{
+      padding-left: 5px;
+      font-size: 10px;
+    }
+    .footRightCon {
+      width: 95%;
+    }
+  }
