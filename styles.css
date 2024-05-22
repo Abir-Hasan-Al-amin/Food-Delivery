@@ -51,7 +51,7 @@ nav button {
 
 .hero {
     height: 60vh;
-    background-image: url('Assets//Header_Bg.png');
+    background-image: url('Assets/Header_Bg.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     color: #fff;
